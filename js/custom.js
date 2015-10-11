@@ -1,13 +1,6 @@
- $(window).scroll(function() {
-
-    if ($(window).scrollTop() == 0) {
-        scroll_transparency = false;
-        $('div.navbar-custom').fadeTo( "fast", 1 );
-
-    }else{
-        if (scroll_transparency == false){
-            $('div.navbar-custom').fadeTo( "fast", .1 );
-            scroll_transparency = true;
-        }
-    }
-});
+function w3_open() {
+    document.getElementsByClassName("w3-sidenav")[0].style.display = "block";
+}
+function w3_close() {
+    document.getElementsByClassName("w3-sidenav")[0].style.display = "none";
+}

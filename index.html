@@ -10,8 +10,23 @@
         <link href="css/custom.css" rel="stylesheet">
         <script src="js/jquery-2.1.4.min.js"></script>
         <script src="js/bootstrap.js"></script>
+        <script src="js/custom.js"></script>    
     </head>    
     <body class="w3-blue-grey">
+        <nav class="w3-sidenav w3-black w3-card-2" style="display:none">
+  <a href="javascript:void(0)" onclick="w3_close()" 
+  class="w3-closenav w3-large">Close &times;</a>
+            <div class="row">
+            <div class="col-sm-12 text-center">
+                <img class="img-circle img-responsive img-center w3-card-8" src="resources/raghavendra.jpg" alt="">
+                <h3>Raghavendra S</h3>
+            </div>
+            <div class="col-sm-12 text-center">
+                <img class="img-circle img-responsive img-center w3-card-8" src="resources/surya.jpg" alt="">
+                <h3>Surya Aniketh T</h3>
+            </div>
+            </div>
+</nav>
     <nav class="navbar navbar-inverse navbar-fixed-top navbar-custom w3-card-12" role="navigation">
         <div class="container">
             <div class="navbar-header">
@@ -54,6 +69,7 @@ maxlength="255" value="" >
             </div>
         </div>
     </nav>
+    <div class="maker"><span class="w3-opennav w3-xlarge" onclick="w3_open()">The Makers</span></div>
     <div class="jumbotron col-sm-12 w3-card-4">
 				<div class="container">
                     <h1>ANURAG <img src="resources/header.gif" style="height:200px; width:400px;"></h1>
@@ -63,7 +79,7 @@ maxlength="255" value="" >
         <hr>
         
         <div class="container col-sm-2"></div>
-         <div class="container col-sm-8">
+         <div class="container col-sm-8 w3-animate-opacity">
 			<div class="carousel slide" data-ride="carousel" id="carousel-ex">
 				<div class="carousel-inner">
 					<div class="item active">
@@ -89,7 +105,7 @@ maxlength="255" value="" >
         
         <hr>
         
-        <div class="container">
+        <div class="container w3-card-16">
         <div class="row">
             <div class="col-sm-8">
                 <h2>Anurag Web Club</h2>

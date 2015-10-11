@@ -17,6 +17,28 @@ body {
     color: #f0e68c;
 }
 
+.maker{
+    background: rgba(128, 128, 128, 0.3);
+    height: 80px;
+    top: 95px;
+    margin-right:159px;
+    overflow: visible;
+    position: fixed;
+    width: 100px;
+    z-index: 1000;
+    padding: 5px;
+    font-size: 2px;
+}
+
+.w3-sidenav{
+    margin-top: 24px;
+    height: 350px;
+    width: 300px;
+    z-index: 2000;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
 .jumbotron{
     background: #000000 url("../resources/img.jpg");
     color: rgba(128, 128, 128, 0.75);
@@ -31,5 +53,5 @@ body {
 }
 
 footer {
-    margin: 50px 0;
+    margin: 50px;
 }
