@@ -2,19 +2,31 @@ body {
     padding-top: 50px;
     padding-bottom: 10px;
     font-family: cursive;
+    background-color: #333;
+    color: #ffffff;
 }
 
 .navbar-inverse {
     color: #ffffff;
+    z-index: 2000;
+}
+
+.navbar-brand{
+    font-family: "Comic Sans MS", cursive, sans-serif !important;
+    font-size: 20px !important;
+    padding-top: 20px;
+    text-shadow: 3px 3px 10px rgba(0,0,0,0.8);
 }
 
 .navbar-brand .brand1{
     color: #009688;
-    font-weight: 900;
+    display: inline-block;
+    padding-right: 5px;
 }
 
 .navbar-brand .brand2{
     color: #f0e68c;
+    display: inline-block;
 }
 
 .maker{
@@ -28,15 +40,18 @@ body {
     z-index: 1000;
     padding: 5px;
     font-size: 2px;
+    text-shadow: 3px 3px 10px rgba(0,0,0,0.8);
 }
 
 .w3-sidenav{
     margin-top: 24px;
-    height: 350px;
-    width: 300px;
+    height: 200px;
+    width: 375px;
     z-index: 2000;
-    overflow-y: hidden;
+    overflow-y: 2px;
     overflow-x: hidden;
+    display: none;
+    font-size: 15px;
 }
 
 .jumbotron{
@@ -44,8 +59,33 @@ body {
     color: rgba(128, 128, 128, 0.75);
 }
 
-.jumbotron h1{
-    font-family: cursive;
+.jumbotron .container h1{
+    font-family: "Comic Sans MS", cursive, sans-serif !important;
+    display: inline-block !important;
+    font-size: 46px !important;
+    margin: 40px;
+    margin-bottom: 21px;
+    height: 100px;
+    color: #777;
+    text-shadow: 3px 3px 10px rgba(0,0,0,0.5);
+}
+
+.jumbotron .container h1 .brand1{
+    color: #009688;
+    display: inline-block !important;
+    padding-left: 7px;
+    padding-right: 5px;
+    text-shadow: 3px 3px 10px rgba(0,0,0,0.8);
+}
+
+.jumbotron .container h1 .brand2{
+    color: #f0e68c;
+    display: inline-block !important;
+    text-shadow: 3px 3px 10px rgba(0,0,0,0.8);
+}
+
+#carousel-ex{
+    box-shadow: 3px 3px 10px rgba(0,0,0,0.5);
 }
 
 .img-center {
